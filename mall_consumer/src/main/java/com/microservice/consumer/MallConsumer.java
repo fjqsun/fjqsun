@@ -92,13 +92,4 @@ public class MallConsumer {
     }
     //=========pcservice v0============
 
-    //pc集合
-    @ RequestMapping(path = "/list", method = RequestMethod.GET)
-      public List<PCService> list(){
-        List<PCService> pcServiceList = new ArrayList<~>();
-        pcServiceList.add(pcService1);
-        pcServiceList.add(pcService2);
-        pcServiceList.add(pcService3);
-        return pcServiceList;
-        
-    }
+    
